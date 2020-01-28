@@ -1,6 +1,11 @@
-body *{border: 1px solid orange;
+body *{
+    /* border: 1px solid orange; */
     margin: 2px;
     padding: 2px;}
+    
+    html {
+        scroll-behavior: smooth;
+      }
 
 li {
     text-align: center;
@@ -20,24 +25,30 @@ a{
     text-decoration: none;
 
 }
-ul{
+ul{position: fixed;
+    top: 22%;
+    left: 11%;
     display: inline-block;
     width: 100px;
 
 }
-.menu{
+.leftpart{
+    /* height: 200px;
+    position: relative; */
     display: inline-block;
     width: 29%;
+    height: 100vh;
 }
-.content{
+.rightpart{
     display: inline-block;
     width: 69%;
+    height: 200vh;
 }
 .center{
     text-align: center;
 }
-.height500{
-    height: 500px;
+.height700{
+    height: 100vh;
 }
 img{
     display: block;
