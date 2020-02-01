@@ -1,7 +1,4 @@
-body *{
-    /* border: 1px solid orange; */
-    margin: 2px;
-    padding: 2px;}
+body{margin: 0px;}
     
     html {
         scroll-behavior: smooth;
@@ -26,11 +23,17 @@ a{
 
 }
 ul{position: fixed;
-    top: 22%;
-    left: 11%;
+    top: 32%;
+    left: 8%;
     display: inline-block;
     width: 100px;
 
+}
+.fix{
+    position: fixed;
+    top: 13%;
+    left: 10%;
+    display: inline-block;
 }
 .leftpart{
     /* height: 200px;
@@ -40,6 +43,7 @@ ul{position: fixed;
     height: 100vh;
 }
 .rightpart{
+    background: rgb(228, 228, 228);
     display: inline-block;
     width: 69%;
     height: 200vh;
@@ -54,4 +58,14 @@ img{
     display: block;
     margin: auto;
 }
-
+#home{
+    background-image: url(4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#about{
+    padding: 100px;
+}
+.box{
+    padding-top: 10%;
+}
